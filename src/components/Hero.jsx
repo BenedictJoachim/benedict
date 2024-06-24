@@ -6,8 +6,8 @@ const Hero = () => {
             id="about"
             className="w-full flex flex-row gap-0 min-h-[500px]"
         >
-            <div className="bg-violet-800 flex flex-col flex-1 w-[700px] justify-center py-[10px]">
-                <h1 className="text-bold text-7xl text-[#ECFF33] text-decoration-thickness-[18px]">Fullstack <br /> Developer.</h1>
+            <div className=" basis-52 bg-violet-800 flex flex-col flex-1 justify-center px-8">
+                <h1 className="text-extrabold text-5xl text-[#ECFF33]">Fullstack <br /> Developer.</h1>
                 <p className="text-xl text-white mt-10">I create impressive fully functional websites, with the human user in mind</p>
             </div>
             <div className="relative flex-1 flex justify-center items-center bg-[#ECFF33]">
