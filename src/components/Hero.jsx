@@ -8,7 +8,7 @@ const Hero = () => {
         >
             <div className=" basis-52 bg-violet-800 flex flex-col flex-1 justify-center px-8">
                 <h1 className="text-bold text-5xl text-[#ECFF33]">Fullstack <br /> Developer.</h1>
-                <p className="text-xl text-white mt-10">I create impressive fully functional websites, with the human user in mind</p>
+                <p className="text-xs sm:text-xl text-white mt-10">I create impressive fully functional websites, with the human user in mind</p>
             </div>
             <div className="relative flex-1 flex justify-center items-center bg-[#ECFF33]">
                 <div>
