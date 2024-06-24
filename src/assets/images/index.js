@@ -6,7 +6,7 @@ import hero5 from "./hero5.jpg";
 import hero6 from "./hero6.jpg"
 import heropattern from "./heropattern.svg";
 import backgroundImage3 from "./backgroundImage3.webp"
-
+import profilePicture from "./profilePicture.jpeg"
 export {
     hero1,
     hero2,
@@ -15,5 +15,6 @@ export {
     hero5,
     hero6,
     heropattern,
-    backgroundImage3
+    backgroundImage3,
+    profilePicture
 }
