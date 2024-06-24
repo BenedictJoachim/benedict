@@ -15,7 +15,7 @@ const App =() => {
         <Promise />
       </section>
       <section className="bg-violet-800">
-        Background
+        <Background />
       </section>
       <section>
         Display
