@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <section className="py-10 px-10 flex-col gap-2">
-            <div className="flex flex-col sm:flex-row justify-between gap-8 py-10 px-10 border-b-2 border-[#ECFF33]">
+            <div className="flex flex-col sm:flex-row justify-between gap-8 py-10 pr-10 border-b-2 border-[#ECFF33]">
             <div>
                 <h3 className="font-semibold uppercase text-[#FEECEB]">Holla @ me</h3>
                 <ul className="text-[#ECFF33]">
