@@ -2,7 +2,7 @@ import { backgroundImage3 } from "../assets/images"
 
 const Background = () => {
     return (
-        <section className="p-20 flex flex-col sm:flex-row">
+        <section className="px-4 py-20 lg:p-20 flex flex-col gap-10 lg:flex-row">
             <div className="sm:basis-1/2">
                 <h2 className="text-4xl font-bold text-white">Here is my Story...</h2>
                 <p className="mt-3 text-sm text-white">I am a passionate full-stack web developer who has honed my skills through formal online courses and practical project experiences. My journey began with foundational courses in HTML, CSS, and JavaScript, where I built a solid understanding of front-end development.</p>
@@ -15,7 +15,6 @@ const Background = () => {
                 <img 
                     src={backgroundImage3} 
                     alt="developer"
-                    
                  />
             </div>
         </section>
