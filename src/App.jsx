@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Promise from "./components/Promise";
 import Background from "./components/Background";
+import Footer from "./components/Footer";
 
 const App =() => {
   return (
@@ -24,7 +25,7 @@ const App =() => {
         Contact Me
       </section>
       <section className="bg-violet-800">
-        Footer
+        <Footer />
       </section>
 
     </main>

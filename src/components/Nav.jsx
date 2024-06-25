@@ -9,9 +9,10 @@ const Nav = () => {
             <div>
                 <img 
                     src={hamburger} 
-                    alt=""
+                    alt="menu"
                     width={23}
                     height={23}
+                    className="stroke-current text-[#ECFF33]"
                 />
             </div>
         </nav>
