@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Promise from "./components/Promise";
 import Background from "./components/Background";
 import Footer from "./components/Footer";
+import ContactMe from "./components/ContactMe"
 
 const App =() => {
   return (
@@ -22,7 +23,7 @@ const App =() => {
         Display
       </section>
       <section>
-        Contact Me
+        <ContactMe />
       </section>
       <section className="bg-violet-800">
         <Footer />
