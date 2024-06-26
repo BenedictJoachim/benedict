@@ -38,28 +38,28 @@ const HamburgerMenu = () => {
         } absolute top-1 right-0  py-5 bg-white`}
       >
         <ul className="mt-10 lg:pr-10">
-          <li>
+          <li className='mt-3'>
             <a href="#home" className="px-4 py-4  text-xl hover:text-violet-800">
-              Home
+              My work
             </a>
           </li>
-          <li>
+          <li className='mt-3'>
             <a href="#about" className="px-4 py-4 text-xl hover:bg-transparent">
-              About
+              My archives
             </a>
           </li>
-          <li>
+          <li className='mt-3'>
             <a href="#services" className="px-4 py-4 text-xl hover:bg-transparent">
-              Services
+              My resume
             </a>
           </li>
-          <li>
+          <li className='mt-3'>
             <a href="#contact" className="px-4 py-4 text-xl hover:bg-transparent">
               Contact
             </a>
           </li>
         </ul>
-        <h2 className='ml-3 mt-10 text-2xl text-gray-300'>SAY HELLO</h2>
+        <h2 className='ml-3 mt-10 text-2xl text-gray-300'>SAY HELLO!</h2>
         <ul className='mt-2'>
           <li className='px-4 py-4'>benedictorngwandu@gmail.com</li>
           <li className='px-4 py-4'>wa.me/+255759908891</li>
