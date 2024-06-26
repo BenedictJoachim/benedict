@@ -4,7 +4,7 @@ const ContactMe = () => {
             <div className="mx-auto py-12 px-6">
              <div className="max-w-lg mx-auto">
                  <h2 className="text-2xl font-bold mb-1 text-violet-800">Send me a message</h2>
-                 <p className="mb-6">Do you have a question, proposal, or just want to say hello? Go one shoot!</p>
+                 <p className="mb-6">Do you have a question, proposal, or just want to say hello? Go on shoot!</p>
                     <form action="#" method="POST">
                         <div className="mb-4">
                             <label htmlFor="name" className="block text-gray-700 mb-2">Your Name</label>
