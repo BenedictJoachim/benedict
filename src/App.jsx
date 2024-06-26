@@ -4,7 +4,8 @@ import Hero from "./components/Hero";
 import Promise from "./components/Promise";
 import Background from "./components/Background";
 import Footer from "./components/Footer";
-import ContactMe from "./components/ContactMe"
+import ContactMe from "./components/ContactMe";
+import Projects from "./components/Projects";
 
 const App =() => {
   return (
@@ -20,7 +21,7 @@ const App =() => {
         <Background />
       </section>
       <section>
-        Display
+        <Projects />
       </section>
       <section>
         <ContactMe />

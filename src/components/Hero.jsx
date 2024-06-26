@@ -11,7 +11,7 @@ const Hero = () => {
                 <p className="text-xs sm:text-xl text-white m-10">I create impressive fully functional websites, with the human user in mind</p>
             </div>
             <div className="flex-1 flex justify-center items-center sm:items-center bg-[#ECFF33] py-20">
-                <div className="flex-none rounded-br-[40px] rounded-tl-[40px] z-10 mt-2 sm:-ml-30 border-4 border-violet-800">
+                <div className="flex-none rounded-br-[40px] rounded-tl-[40px] -z-15 mt-2 sm:-ml-30 border-4 border-violet-800">
                 <img 
                     src={profilePicture} 
                     alt="photo"

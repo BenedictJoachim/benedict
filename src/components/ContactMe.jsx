@@ -7,7 +7,7 @@ const ContactMe = () => {
                  <p className="mb-6">Do you have a question, proposal, or just want to say hello? Go one shoot!</p>
                     <form action="#" method="POST">
                         <div className="mb-4">
-                            <label for="name" className="block text-gray-700 mb-2">Your Name</label>
+                            <label htmlFor="name" className="block text-gray-700 mb-2">Your Name</label>
                             <input 
                                 type="text" 
                                 id="name" 
@@ -18,7 +18,7 @@ const ContactMe = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label for="email" className="block text-gray-700 mb-2">Your Email</label>
+                            <label htmlFor="email" className="block text-gray-700 mb-2">Your Email</label>
                             <input 
                                 type="email" 
                                 id="email" 
@@ -29,7 +29,7 @@ const ContactMe = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label for="message" className="block text-gray-700 mb-2">Your Message</label>
+                            <label htmlFor="message" className="block text-gray-700 mb-2">Your Message</label>
                             <textarea 
                                 id="message" 
                                 name="message"
