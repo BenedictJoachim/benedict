@@ -10,7 +10,7 @@ const HamburgerMenu = () => {
   };
 
   return (
-    <div className={`${isOpen ? 'bg-white' : 'bg-transparent'}`}>
+    <div className={`${isOpen ? 'bg-white-100' : 'bg-transparent'}`}>
       <div>
       <button
         onClick={toggleMenu}
