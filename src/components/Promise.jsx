@@ -7,7 +7,7 @@ const Promise = () => {
             className="mx-5 my-[150px] p-3 flex flex-col lg:flex-row gap-10"
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ amount: 0.25 }}
             transition={{ duration: 3 }}
         >
             <div>

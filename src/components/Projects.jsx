@@ -8,7 +8,7 @@ const Projects = () => {
             className="p-2 my-10 projects"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ amount: 0.25 }}
             transition={{ duration: 3 }}
         >
         <div className="content">

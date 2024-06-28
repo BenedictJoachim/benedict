@@ -8,7 +8,7 @@ const Hero = () => {
             className="w-full flex flex-col flex-wrap sm:flex-row gap-0 min-h-[500px] relative"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ amount: 0.25 }}
             transition={{ duration: 3 }}
         >
             <div className=" basis-52 bg-violet-800 flex flex-col flex-1 justify-center pt-20 px-10">

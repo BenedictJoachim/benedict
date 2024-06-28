@@ -8,7 +8,7 @@ const Background = () => {
             className="px-4 py-20 lg:p-20 flex flex-col gap-10 lg:flex-row"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ amount: 0.25 }}
             transition={{ duration: 3 }}
         >
             <div className="sm:basis-1/2">

@@ -7,7 +7,7 @@ const ContactMe = () => {
             className=""
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ amount: 0.25 }}
             transition={{ duration: 3 }}
         >
             <div className="mx-auto py-12 px-6">
