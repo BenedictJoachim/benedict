@@ -1,8 +1,16 @@
 import { backgroundImage1 } from "../assets/images"
+import { motion } from "framer-motion";
 
 const Background = () => {
     return (
-        <section id="about" className="px-4 py-20 lg:p-20 flex flex-col gap-10 lg:flex-row">
+        <motion.section 
+            id="background" 
+            className="px-4 py-20 lg:p-20 flex flex-col gap-10 lg:flex-row"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+        >
             <div className="sm:basis-1/2">
                 <h2 className="text-4xl font-bold text-white">Here is my Story...</h2>
                 <p className="mt-3 text-sm text-white">I am a passionate full-stack web developer who has honed my skills through formal online courses and practical project experiences. My journey began with foundational courses in HTML, CSS, and JavaScript, where I built a solid understanding of front-end development.</p>
@@ -17,7 +25,7 @@ const Background = () => {
                     alt="developer"
                  />
             </div>
-        </section>
+        </motion.section>
     )
 }
 

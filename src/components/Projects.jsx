@@ -1,9 +1,16 @@
 import { admindashboard, gamediscoveryhub, nikelandingpage } from "../assets/images";
-
+import { motion } from "framer-motion";
 
 const Projects = () => {
     return (
-        <section id="projects" className="p-2 mt-5 projects">
+        <motion.section 
+            id="projects" 
+            className="p-2 mt-5 projects"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+        >
         <div className="content">
             <h2 className="text-[#5800e3] text-4xl font-bold ml-5">My Projects</h2>
             <div className="flex justify-around flex-wrap">
@@ -24,7 +31,7 @@ const Projects = () => {
                 </div>
             </div>
         </div>
-    </section>
+    </motion.section>
 
     )
 }

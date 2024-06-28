@@ -1,10 +1,15 @@
 import { profilePicture } from "../assets/images"
+import { motion } from "framer-motion";
 
 const Hero = () => {
     return (
-        <section
-            id="about"
+        <motion.section
+            id="hero"
             className="w-full flex flex-col flex-wrap sm:flex-row gap-0 min-h-[500px] relative"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
         >
             <div className=" basis-52 bg-violet-800 flex flex-col flex-1 justify-center pt-20 px-10">
                 <h1 className="text-bold text-5xl text-[#ECFF33]">Fullstack <br /> Developer.</h1>
@@ -21,7 +26,7 @@ const Hero = () => {
                 />
                 </div>
             </div>
-        </section>
+        </motion.section>
     )
 }
 

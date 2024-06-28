@@ -1,11 +1,10 @@
-import  { arrowRight }  from "./assets/icons";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import Promise from "./components/Promise";
 import Background from "./components/Background";
-import Footer from "./components/Footer";
 import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Nav from "./components/Nav";
 import Projects from "./components/Projects";
+import Promise from "./components/Promise";
 
 const App =() => {
   return (

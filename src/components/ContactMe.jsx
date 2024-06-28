@@ -1,6 +1,15 @@
+import { motion } from "framer-motion"
+
 const ContactMe = () => {
     return (
-        <section className="">
+        <motion.section 
+            id="contact"
+            className=""
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+        >
             <div className="mx-auto py-12 px-6">
              <div className="max-w-lg mx-auto">
                  <h2 className="text-2xl font-bold mb-1 text-violet-800">Send me a message</h2>
@@ -45,7 +54,7 @@ const ContactMe = () => {
                     </form>
                 </div>
             </div>
-        </section>
+        </motion.section>
     )
 }
 
