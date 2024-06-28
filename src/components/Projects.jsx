@@ -1,3 +1,6 @@
+import { admindashboard, gamediscoveryhub, nikelandingpage } from "../assets/images";
+
+
 const Projects = () => {
     return (
         <section id="projects" className="p-2 mt-5 projects">
@@ -5,18 +8,18 @@ const Projects = () => {
             <h2 className="text-[#5800e3] text-4xl font-bold ml-5">My Projects</h2>
             <div className="flex justify-around flex-wrap">
                 <div className="w-72 m-5 bg-white p-5 rounded-lg shadow-2xl text-center">
-                    <img src="https://placehold.co/400" alt="Project 1" />
-                    <h3 className="mt-3">Admin Dashboard</h3>
+                    <img src={admindashboard} alt="Project 1" />
+                    <a href="https://react-admin-dashboard-psi-teal.vercel.app/ecommerce" className="mt-5 text-xl">Admin Dashboard</a>
                     <p className="mt-3 text-gray-400">A MaterialUI-components web application.</p>
                 </div>
                 <div className="w-72 m-5 bg-white p-5 rounded-lg shadow-2xl text-center">
-                    <img src="https://placehold.co/400" alt="Project 2" />
-                    <h3 className="mt-3">Game Hub</h3>
+                    <img src={gamediscoveryhub} alt="Project 2" />
+                    <a href="https://game-discovery-hub-eight.vercel.app/" className="mt-5 text-xl">Game Hub</a>
                     <p className="mt-3 text-gray-400">A chackra game discovery app consuming the rawg.io API.</p>
                 </div>
                 <div className="w-72 m-5 bg-white p-5 rounded-lg shadow-2xl text-center">
-                    <img src="https://placehold.co/400" alt="Project 3" />
-                    <h3 className="mt-3">Nike landing page</h3>
+                    <img src={nikelandingpage} alt="Project 3" />
+                    <a href="https://nike-landing-page-2nyghbqiw-higheribs-projects.vercel.app/" className="mt-5 text-xl">Nike landing page</a>
                     <p className="mt-3 text-gray-400">A SPW built with tailwindcss.</p>
                 </div>
             </div>

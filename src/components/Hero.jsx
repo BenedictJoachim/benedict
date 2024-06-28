@@ -1,4 +1,4 @@
-import { hero1, hero6, heropattern, profilePicture } from "../assets/images"
+import { profilePicture } from "../assets/images"
 
 const Hero = () => {
     return (

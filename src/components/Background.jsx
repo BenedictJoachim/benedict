@@ -1,4 +1,4 @@
-import { backgroundImage3 } from "../assets/images"
+import { backgroundImage1 } from "../assets/images"
 
 const Background = () => {
     return (
@@ -13,7 +13,7 @@ const Background = () => {
             </div>
             <div className="flex justify-center items-center">
                 <img 
-                    src={backgroundImage3} 
+                    src={backgroundImage1} 
                     alt="developer"
                  />
             </div>
