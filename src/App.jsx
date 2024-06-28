@@ -22,7 +22,7 @@ const App =() => {
       <section>
         <Projects />
       </section>
-      <section>
+      <section className="bg-[#F2F8FC]">
         <ContactMe />
       </section>
       <section className="bg-violet-800">

@@ -5,11 +5,11 @@ const Projects = () => {
     return (
         <motion.section 
             id="projects" 
-            className="p-2 mt-5 projects"
+            className="p-2 my-10 projects"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 3 }}
         >
         <div className="content">
             <h2 className="text-[#5800e3] text-4xl font-bold ml-5">My Projects</h2>

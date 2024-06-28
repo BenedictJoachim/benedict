@@ -5,10 +5,10 @@ const ContactMe = () => {
         <motion.section 
             id="contact"
             className=""
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 3 }}
         >
             <div className="mx-auto py-12 px-6">
              <div className="max-w-lg mx-auto">

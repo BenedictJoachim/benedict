@@ -9,7 +9,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 3 }}
         >
             <div className=" basis-52 bg-violet-800 flex flex-col flex-1 justify-center pt-20 px-10">
                 <h1 className="text-bold text-5xl text-[#ECFF33]">Fullstack <br /> Developer.</h1>
