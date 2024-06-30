@@ -11,7 +11,7 @@ const skills = [
   { name: 'Chakra', level: 65 },
   { name: 'Material UI', level: 60 },
   { name: 'Framer', level: 50 },
-  { name: 'Next.js', level: 60 }
+  { name: 'Nextui', level: 60 }
 ];
 
 const skillVariants = {

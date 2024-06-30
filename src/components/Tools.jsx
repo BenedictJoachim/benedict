@@ -1,6 +1,6 @@
 // Skills.js
 import { FaHtml5, FaCss3Alt, FaSass, FaBootstrap, FaGit, FaReact, FaJs } from 'react-icons/fa';
-import { SiTailwindcss, SiChakraui, SiFramer, SiNextdotjs } from 'react-icons/si';
+import { SiTailwindcss, SiChakraui, SiFramer, SiNextui } from 'react-icons/si';
 import { DiMaterializecss } from 'react-icons/di';
 
 const skills = [
@@ -15,7 +15,7 @@ const skills = [
   { name: 'Material UI', icon: <DiMaterializecss size={40} />, color: 'text-blue-500' },
   { name: 'Chakra UI', icon: <SiChakraui size={40} />, color: 'text-teal-500' },
   { name: 'Framer', icon: <SiFramer size={40} />, color: 'text-purple-500' },
-  { name: 'Next.js', icon: <SiNextdotjs size={40} />, color: 'text-gray-800' }
+  { name: 'Nextui', icon: <SiNextui size={40} />, color: 'text-gray-800' }
 ];
 
 const Skills = () => {
