@@ -20,7 +20,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="max-w-7xl mx-auto my-16 p-8 bg-white rounded-lg shadow-md">
+    <div className="max-w-7xl mx-auto my-16 p-8 bg-white">
       <h2 className="text-[#5800E3] text-4xl font-bold text-center mb-4">My Skills & Tools</h2>
       <p className="text-center text-gray-600 mb-8">Highly skilled at progressive enhancement, design systems & UI Engineering</p>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">

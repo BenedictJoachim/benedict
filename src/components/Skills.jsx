@@ -10,13 +10,13 @@ const skills = [
   { name: 'Tailwind CSS', level: 70 },
   { name: 'Chakra', level: 65 },
   { name: 'Material UI', level: 60 },
-  { name: 'Framer Motion', level: 50 },
+  { name: 'Framer', level: 50 },
   { name: 'Next.js', level: 60 }
 ];
 
 const skillVariants = {
   initial: { opacity: 0, width: 0 },
-  animate: { opacity: 1, width: '100%' }
+  // animate: { opacity: 1, width: '10%' }
 };
 
 const Skills = () => {
@@ -30,14 +30,14 @@ const Skills = () => {
               <h3 className="text-xl font-medium">{skill.name}</h3>
               <span className="text-sm text-gray-500">{skill.level}%</span>
             </div>
-            <div className="w-full bg-gray-200 rounded-full h-4">
+            <div className="w-full bg-gray-200 rounded-full h-2">
               <motion.div
                 className="bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full"
                 initial="initial"
-                whileInView="animate"
+                whileInView={{ opacity: 1 }}
                 viewport={{ amount: 0.5 }}
                 transition={{ duration: 1 }}
-                style={{ width: `${skill.level}%` }}
+                animate={{ width: `${skill.level}%` }}
                 variants={skillVariants}
               />
             </div>
