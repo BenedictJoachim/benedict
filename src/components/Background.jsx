@@ -1,11 +1,12 @@
 import { backgroundImage1 } from "../assets/images"
+import Skills from "./Skills";
 import { motion } from "framer-motion";
 
 const Background = () => {
     return (
         <motion.section 
             id="background" 
-            className="px-4 py-20 lg:p-20 flex flex-col gap-10 lg:flex-row"
+            className="px-4 py-20 lg:p-20 flex flex-col gap-20 lg:flex-row"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ amount: 0.25 }}
@@ -20,10 +21,8 @@ const Background = () => {
                 <p className="mt-3 text-sm text-white">Looking ahead, I am eager to continue expanding my expertise, tackling new challenges, and contributing to innovative web solutions that make a positive impact.</p>
             </div>
             <div className="flex justify-center items-center">
-                <img 
-                    src={backgroundImage1} 
-                    alt="developer"
-                 />
+                {/* <img src={backgroundImage1} alt="developer"/> */}
+                <Skills />
             </div>
         </motion.section>
     )
