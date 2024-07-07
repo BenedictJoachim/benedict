@@ -22,7 +22,7 @@ const skillVariants = {
 const Skills = () => {
   return (
     <div className="w-[400px] mx-auto my-4 p-8 bg-[#F4F1F8] shadow-md">
-      <h2 className="text-3xl font-semibold text-center mb-8">My Skills</h2>
+      <h2 className="text-3xl font-semibold text-center mb-8">My Skills:<span className='text-[#5800E3]'>The levels.</span></h2>
       <div className="space-y-4">
         {skills.map(skill => (
           <div key={skill.name} className="flex flex-col">

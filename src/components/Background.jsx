@@ -10,7 +10,7 @@ const Background = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ amount: 0.25 }}
-            transition={{ duration: 3 }}
+            transition={{ duration: 1 }}
         >
             <div className="sm:basis-1/2">
                 <h2 className="text-4xl font-bold text-white">Here is my Story...</h2>

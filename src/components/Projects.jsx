@@ -1,4 +1,5 @@
 import { admindashboard, gamediscoveryhub, nikelandingpage } from "../assets/images";
+import { arrowRight } from "../assets/icons"
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -9,7 +10,7 @@ const Projects = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ amount: 0.25 }}
-            transition={{ duration: 3 }}
+            transition={{ duration: 1 }}
         >
         <div className="content">
             <h2 className="text-[#5800e3] text-4xl font-bold ml-5">My Projects</h2>
@@ -30,6 +31,10 @@ const Projects = () => {
                     <p className="mt-3 text-gray-400">A SPW built with tailwindcss.</p>
                 </div>
             </div>
+            <button 
+                className="w-72 bg-white text-[#5800e3] text-3xl font-bold py-2 px-4 border border-[#5800e3] rounded-lg  hover:bg-violet-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                View all 
+            </button>
         </div>
     </motion.section>
 
