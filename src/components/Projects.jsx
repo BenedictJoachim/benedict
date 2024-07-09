@@ -32,7 +32,7 @@ const Projects = () => {
                 </div>
             </div>
             <button 
-                className="w-72 bg-white text-[#5800e3] hover:text-white text-3xl font-bold py-2 px-4 border border-[#5800e3] rounded-lg  hover:bg-violet-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                className="w-72 ml-5 bg-white text-[#5800e3] hover:text-white text-3xl font-bold py-2 px-4 border border-[#5800e3] rounded-lg  hover:bg-violet-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
                 View all 
             </button>
         </div>
